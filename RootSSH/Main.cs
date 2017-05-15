@@ -16,5 +16,19 @@ namespace RootSSH
         {
             InitializeComponent();
         }
+
+        List<string> sList = new List<string>();
+        public List<string> SList
+        {
+            get
+            {
+                return sList;
+            }
+
+            set
+            {
+                sList = value;
+            }
+        }
     }
 }
